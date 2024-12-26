@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #0055cc;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+table th {
+    background-color: #0055cc;
+    color: white;
+}
+
+/* Inline Code Styling */
+code {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 2px 4px;
+    font-family: monospace;
+}
+
+/* Interactive Effects */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Subselector: Apply styles to paragraphs within sections of class intro */
+section.intro p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Hover effect for links in intro section */
+section.intro a:hover {
+    color: blue;
+    text-decoration: underline;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>CSS Selectors Tutorial</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="box_model.html">Box Model</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article>
+        <section>
+            <h2>Basic Selectors</h2>
+            <p>Selectors are patterns used to apply styles to HTML elements. Basic types include:</p>
+            <ul>
+                <li><strong>Tag Selector:</strong> Targets all elements of a specific type (e.g., <code>p</code>).</li>
+                <li><strong>Class Selector:</strong> Targets elements with a specific class (e.g., <code>.example</code>).</li>
+                <li><strong>ID Selector:</strong> Targets a unique element with a specific ID (e.g., <code>#header</code>).</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Advanced Selectors</h2>
+            <ul>
+                <li><strong>Child Selector (<code>E &gt; F</code>):</strong> Selects direct children of an element.</li>
+                <li><strong>Adjacent Sibling Selector (<code>E + F</code>):</strong> Selects an element immediately preceded by another.</li>
+                <li><strong>General Sibling Selector (<code>E ~ F</code>):</strong> Selects elements preceded by another.</li>
+            </ul>
+            <p>Example:</p>
+            <code>
+                div > p {
+                    color: red;
+                }
+            </code>
+        </section>
+        <section>
+            <h2>Pseudo-Classes and Pseudo-Elements</h2>
+            <p>CSS also supports pseudo-classes and pseudo-elements, such as:</p>
+            <ul>
+                <li><code>:hover</code>: Applies styles when the user hovers over an element.</li>
+                <li><code>::after</code>: Inserts content after an element.</li>
+            </ul>
+        </section>
+    </article>
+</body>
+</html>
